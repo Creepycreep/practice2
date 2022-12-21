@@ -592,32 +592,6 @@ nav {
 
 /* section 6 */
 
-.food_gallery_red {
-  position: relative;
-}
-
-.red_rectangle_1 {
-  background-color: #FF0000;
-  border: 0;
-  width: 30px;
-  height: 100px;
-
-  position: absolute;
-  left: 0;
-  top: 120px;
-}
-
-.red_rectangle_2 {
-  background-color: #FF0000;
-  border: 0;
-  width: 30px;
-  height: 100px;
-
-  position: absolute;
-  right: 0;
-  top: 120px;
-}
-
 .food_gallery_heading {
   margin-top: 100px;
   margin-bottom: 60px;
@@ -948,16 +922,22 @@ footer {
 
   /* section 6 */
 
+  .food_gallery_red {
+    position: relative;
+  }
+
   .red_rectangle_1 {
-    display: none;
+    background-color: #FF0000;
+    border: 0;
+    width: 30px;
+    height: 100px;
+
+    position: absolute;
+    left: 0;
+    top: 222px;
   }
 
-  .red_rectangle_2 {
-    display: none;
-  }
-
-
-  .food_gallery {
+  .food_gallery_red .food_gallery {
     display: flex;
     flex-direction: column;
     align-items: center;
