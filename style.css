@@ -5,7 +5,7 @@
 }
 
 .color {
-  background-color: #e5e5e5;
+  background-color: #fafafa;
 }
 
 .container {
@@ -253,7 +253,6 @@ nav {
   font-size: 54px;
   font-family: Tinos, serif;
   font-weight: 400;
-
 }
 
 .orange {
@@ -518,4 +517,153 @@ nav {
   left: -20px;
 
   position: absolute;
+}
+
+/* section 5 */
+
+.review_color {
+  background-color: #e5e5e5;
+  padding-top: 104px;
+  padding-bottom: 104px;
+}
+
+.review {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+
+  max-width: 920px;
+}
+
+.review_text {
+  font-style: italic;
+}
+
+.review_photo {
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  border-radius: 50%;
+}
+
+.review_caption {
+  font-weight: 700;
+
+  margin-bottom: 10px;
+}
+
+.review_list {
+  list-style: none;
+
+  width: 21px;
+  height: 7px;
+
+  margin-top: 25px;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.review_list_items {
+  width: 5px;
+  height: 5px;
+  background-color: #c4c4c4;
+  border-radius: 50%;
+}
+
+.review_list_items:last-child {
+  border: 1px solid #FF7400;
+  background-color: #e5e5e5;
+}
+
+/* section 6 */
+
+.food_gallery_heading {
+  margin-top: 100px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.food_pictures {
+  display: flex;
+  justify-content: space-between;
+}
+
+.table1 {
+  margin-bottom: 25px;
+}
+
+.table2 {
+  margin-top: 25px;
+}
+
+.first_column {
+  display: flex;
+  flex-direction: column;
+}
+
+.second_row {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* section 7 */
+
+.our_cooks {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.our_cooks_heading {
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+
+.our_cooks_img {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cook_item {
+  max-width: 350px;
+}
+
+.our_cook_list {
+  list-style: none;
+
+  display: flex;
+  justify-content: space-around;
+  align-self: center;
+
+  margin-top: 44px;
+  margin-bottom: 44px;
+
+  width: 14px;
+
+}
+
+.our_cook_items {
+  width: 5px;
+  height: 5px;
+  background-color: #c4c4c4;
+  border-radius: 50%;
+}
+
+.our_cook_items:first-child {
+  border: 1px solid #FF7400;
+  background-color: #fafafa;
+}
+
+footer {
+  height: 100vh;
+  background-image: url(img/st-82.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
